@@ -57,7 +57,7 @@ local DiscordLib = {}
         imagenoti.AnchorPoint = Vector2.new(0.5, 0.5)
         imagenoti.Position = UDim2.new(0.9, 0, 0.5, 0)
         imagenoti.Size = UDim2.new(0, 90, 0, 90)
-      imagenoti.Image = "https://www.roblox.com/asset-thumbnail/image?assetId=9906600154&width=0&height=0&format=png"
+      imagenoti.Image = "rbxassetid://11354741327"
     
         local txdlid = Instance.new("TextLabel")
     
@@ -67,7 +67,7 @@ local DiscordLib = {}
         txdlid.Size =UDim2.new(0, 160, 0,25 )
         txdlid.Font = Enum.Font.Code
         txdlid.Text = titel
-        txdlid.TextColor3 = Color3.fromRGB(0,225,225)
+        txdlid.TextColor3 = Color3.fromRGB(255,255,255)
         txdlid.TextSize = 17.000
         txdlid.AnchorPoint = Vector2.new(0.5, 0.5)
         txdlid.Position = UDim2.new(0.23, 0, 0.3, 0)
@@ -94,7 +94,7 @@ local DiscordLib = {}
         TextNoti.Size =UDim2.new(0, 260, 0,25 )
         TextNoti.Font = Enum.Font.Code
         TextNoti.Text = text
-        TextNoti.TextColor3 = Color3.fromRGB(0,225,225)
+        TextNoti.TextColor3 = Color3.fromRGB(255,255,255)
         TextNoti.TextSize = 15.000
         TextNoti.AnchorPoint = Vector2.new(0.5, 0.5)
         TextNoti.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -108,7 +108,7 @@ local DiscordLib = {}
         Time.Name = "Time"
         Time.Parent = TitleFrame
     --Time.AnchorPoint = Vector2.new(0.5, 0.5)
-        Time.BackgroundColor3 =  Color3.fromRGB(0,225,225)
+        Time.BackgroundColor3 =  Color3.fromRGB(255,255,255)
         Time.BorderSizePixel = 0
         Time.Position =  UDim2.new(0, 0, 0.,0)
         Time.Size = UDim2.new(0, 0,0,0)
@@ -340,14 +340,14 @@ local ThunderImageUI = Instance.new("ImageLabel")
     BigLogo.BorderSizePixel = 0
     BigLogo.Size = UDim2.new(0, 102, 0, 95)
     BigLogo.Position = UDim2.new(0, -5, 0, -5)
-    BigLogo.Image = "11354741327"
+    BigLogo.Image = "rbxassetid://11354741327"
 
     local Garis = Instance.new("TextLabel")
     Garis.Parent = ThunderFrame
     Garis.Name = "Garis"
     Garis.Text = "|"
     Garis.BackgroundTransparency = 1
-    Garis.TextColor3 = Color3.fromRGB(0, 225, 225)
+    Garis.TextColor3 = Color3.fromRGB(255, 255, 255)
     Garis.Position = UDim2.new(0, 55, 0, 15)
     Garis.Size = UDim2.new(0, 50, 0, 50)
     Garis.Font = Enum.Font.GothamSemibold
@@ -358,7 +358,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
     InfoText_1.Name = "Info Text 1"
     InfoText_1.Text = "ZEN HUB KEY SYSTEM"
     InfoText_1.BackgroundTransparency = 1
-    InfoText_1.TextColor3 = Color3.fromRGB(0, 225, 225)
+    InfoText_1.TextColor3 = Color3.fromRGB(255, 255, 255)
     InfoText_1.Position = UDim2.new(0, 210, 0, 15)
     InfoText_1.Size = UDim2.new(0, 50, 0, 50)
     InfoText_1.Font = Enum.Font.GothamSemibold
@@ -418,7 +418,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
     
     Line2.Name = "Line"
     Line2.Parent = ThunderFrame
-    Line2.BackgroundColor3 = Color3.fromRGB(0,225,225)
+    Line2.BackgroundColor3 = Color3.fromRGB(255,255,255)
     Line2.BorderSizePixel = 0
     Line2.Position = UDim2.new(0, 20, 0, 80)
     Line2.Size = UDim2.new(0, 360, 0, 1)
@@ -489,7 +489,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
 
                     FrameOutside,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
 
-                    {BackgroundColor3 = Color3.fromRGB(0, 255, 255)}
+                    {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
 
                 ):Play() 
 
@@ -573,7 +573,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
     
     Button.Name = "Button"
     Button.Parent = ThunderFrame
-    Button.BackgroundColor3 = Color3.fromRGB(0, 225, 225)
+    Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Button.Size = UDim2.new(0, 170, 0, 41)
     Button.Position = UDim2.new(0, 20, 0, 150)
     
@@ -614,7 +614,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
     local UICorner_4 = Instance.new("UICorner")
     Button2.Name = "Button2"
     Button2.Parent = ThunderFrame
-    Button2.BackgroundColor3 = Color3.fromRGB(0, 225, 225)
+    Button2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Button2.Size = UDim2.new(0, 170, 0, 41)
     Button2.Position = UDim2.new(0, 210, 0, 150)
     
@@ -698,7 +698,7 @@ local ThunderImageUI = Instance.new("ImageLabel")
 
                     StrokeFrame,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
 
-                    {Color = Color3.fromRGB(0, 255, 255)}
+                    {Color = Color3.fromRGB(255, 255, 255)}
 
                 ):Play() 
 
@@ -853,6 +853,7 @@ spawn(function()
             ThunderFrame:Destroy()
             DiscordLib:Notification("Key System" , "Found Existing Key !" , 3)
             --loadstring Script here
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
     else --Add this thing for some reason lul
         DiscordLib:Notification("Key System" , "Key is Expired / Invalid" , 3)
         print("Key Validation: "..response)
